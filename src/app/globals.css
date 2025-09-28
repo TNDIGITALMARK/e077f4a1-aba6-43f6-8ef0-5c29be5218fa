@@ -14,8 +14,14 @@ All colors MUST be HSL.
   --popover: 0 0% 100%;
   --popover-foreground: 222.2 84% 4.9%;
 
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
+  /* Pete's Tile Brand Colors */
+  --primary: 218 91% 33.7%;  /* Deep Navy #1e3a8a */
+  --primary-foreground: 0 0% 100%;
+
+  --pete-navy: 218 91% 33.7%;  /* #1e3a8a */
+  --pete-gray: 220 13% 46.1%;  /* #6b7280 */
+  --pete-orange: 24 95% 53.1%; /* #f97316 */
+  --pete-light-gray: 220 14% 96%; /* Light background gray */
 
   --secondary: 210 40% 96.1%;
   --secondary-foreground: 222.2 47.4% 11.2%;
@@ -115,7 +121,13 @@ All colors MUST be HSL.
   
   --color-card: hsl(var(--card));
   --color-card-foreground: hsl(var(--card-foreground));
-  
+
+  /* Pete's Tile Brand Colors */
+  --color-pete-navy: hsl(var(--pete-navy));
+  --color-pete-gray: hsl(var(--pete-gray));
+  --color-pete-orange: hsl(var(--pete-orange));
+  --color-pete-light-gray: hsl(var(--pete-light-gray));
+
   --color-sidebar: hsl(var(--sidebar-background));
   --color-sidebar-foreground: hsl(var(--sidebar-foreground));
   --color-sidebar-primary: hsl(var(--sidebar-primary));
